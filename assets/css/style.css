@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gudea&family=Permanent+Marker&display=swap');
 
 * {
     margin: 0;
@@ -9,4 +9,16 @@ body {
     font-family: Gudea, sans-serif;
     font-weight: 300;
     color: black;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Permanent Marker,sans-serif;
+    letter-spacing: 2px;
+    color: black;
+}
+#logo {
+    float: left;
+    font-size: 300%;
 }
