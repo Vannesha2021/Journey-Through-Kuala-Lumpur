@@ -10,6 +10,11 @@ body {
     font-weight: 300;
     color: black;
 }
+#nav {
+    font-family: Gudea, sans-serif;
+    font-weight: 1000;
+    color: white;
+}
 
 /* headings and logo */
 
@@ -20,8 +25,7 @@ h1, h2 {
 }
 #logo {
     float: left;
-    font-size: 300%;
-    padding-top: 5%;
+    font-size: 400%;
     padding-left: 3%
 }
 #menu {
@@ -41,8 +45,8 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border: 4px solid #f44336;
-    color: #f44336;
+    border: 4px solid #f7987f;
+    color:white;
     padding: 6px 10px;
     font-size: 20px;
     letter-spacing: 1px;
@@ -50,5 +54,15 @@ h1, h2 {
     outline: none;
     background-color: transparent;
     display: table;
+}
 
+/* skyline image */
+
+#skyline-image {
+    height: 500px;
+    max-width: 100%;
+    background: url(images/skyline-img.jpg) no-repeat center center;
+    =
+
+, 
 }
