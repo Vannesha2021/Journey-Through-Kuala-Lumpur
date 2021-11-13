@@ -7,13 +7,13 @@
 }
 body {
     font-family: Gudea, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
 }
 #nav {
     font-family: Gudea, sans-serif;
     font-weight: 1000;
-    color: white;
+    color: black;
 }
 
 /* headings and logo */
@@ -45,8 +45,8 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border: 4px solid #f7987f;
-    color:white;
+    border: 4px solid black;
+    color:black;
     padding: 6px 10px;
     font-size: 20px;
     letter-spacing: 1px;
@@ -59,10 +59,8 @@ h1, h2 {
 /* skyline image */
 
 #skyline-image {
-    height: 500px;
+    height: 400px;
     max-width: 100%;
-    background: url(images/skyline-img.jpg) no-repeat center center;
-    =
-
-, 
+    background: url(images/skyline.img.jpg) no-repeat center center;
+    background: linear-gradient(to right);
 }
