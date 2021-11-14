@@ -72,26 +72,42 @@ h1, h2 {
 /* Introduction */
 
 #introduction {
-    color: black;
-    padding-right: 15%;
-    padding-left: 15%;
-    margin: 0;
-    font-size: 200%;
-    text-align: center;
-}
-
-#introduction-part2 {
     font-family: Permanent Marker,sans-serif;
     color: black;
     padding-right: 15%;
     padding-left: 15%;
-    padding-top: 5%;
-    margin: 0;
     font-size: 300%;
     text-align: center;
 }
 
-#background-image2 {
-    background: url(images/background-orange.jpg) no-repeat center center;
+#mid-section {
+    font-family: Gudea,sans-serif;
+    color: black;
+    padding-top: 10%;
+    font-size: 60%;
+    text-align: center;
+    width: 45%;
+    float: left;
 }
+
+#bar-image {
+    background: url(images/small.jpg) no-repeat center center;
+    padding-top: 50%;
+    border-radius: 200px;
+    position: relative;
+    float: left;
+    width: 45%;
+}
+
+/* animates mirror effect in mid-section images */
+
+#bar-image:hover {
+    transform: scaleX(-1);
+  }
+  
+
+
+
+
+
 
