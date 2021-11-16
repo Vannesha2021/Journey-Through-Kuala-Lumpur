@@ -12,7 +12,7 @@ body {
 }
 #nav {
     font-family: Gudea, sans-serif;
-    color: rgb(83, 80, 80);
+    color: rgb(133, 133, 133);
     font-size: 30px;
     margin-left: 30%;
     margin-right: 30%;
@@ -83,20 +83,38 @@ h1, h2 {
 #mid-section {
     font-family: Gudea,sans-serif;
     color: black;
-    padding-top: 10%;
+    padding-top: 20%;
     font-size: 60%;
-    text-align: center;
     width: 45%;
     float: left;
 }
 
 #bar-image {
-    background: url(images/small.jpg) no-repeat center center;
+    background: url(images/cocktail.jpg) no-repeat center center;
     padding-top: 50%;
-    border-radius: 200px;
-    position: relative;
+    padding-left: 5%;
     float: left;
     width: 45%;
+    border-radius: 100%;
+    
+}
+
+#street-food-section {
+    font-family: Gudea,sans-serif;
+    color: black;
+    padding-top: 17.5%;
+    font-size: 60%;
+    width: 50%;
+    float: left;
+}
+
+#street-food-image {
+    background: url(images/satay.jpg) no-repeat center center;
+    padding-top: 45%;
+    padding-left: 5%;
+    float: left;
+    width: 45%;
+    border-radius: 100%;
 }
 
 /* animates mirror effect in mid-section images */
@@ -104,6 +122,8 @@ h1, h2 {
 #bar-image:hover {
     transform: scaleX(-1);
   }
+
+
   
 
 
