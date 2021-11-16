@@ -90,12 +90,12 @@ h1, h2 {
 }
 
 #bar-image {
-    background: url(images/cocktail.jpg) no-repeat center center;
+    background: url(images/bar.jpg) no-repeat center center;
     padding-top: 50%;
     padding-left: 5%;
     float: left;
     width: 45%;
-    border-radius: 100%;
+    border-radius: 70%;
     
 }
 
@@ -114,12 +114,40 @@ h1, h2 {
     padding-left: 5%;
     float: left;
     width: 45%;
+    border-radius: 70%;
+}
+
+#nature-section {
+    font-family: Gudea,sans-serif;
+    color: black;
+    font-size: 60%;
+    width: 35%;
+    float: left;
+    position:absolute;
+    top: 320%;
+}
+
+#nature-image {
+    background: url(images/nature.jpg) no-repeat center center;
+    padding-top: 70%;
+    padding-left: 5%;
+    float: left;
+    width: 45%;
     border-radius: 100%;
 }
+
 
 /* animates mirror effect in mid-section images */
 
 #bar-image:hover {
+    transform: scaleX(-1);
+  }
+
+#street-food-image:hover {
+    transform: scaleX(-1);
+  }
+
+#nature-image:hover {
     transform: scaleX(-1);
   }
 
