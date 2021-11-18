@@ -188,38 +188,66 @@ h1, h2 {
   
 /* Media queries */
 
-  /* for medium screen sizes from 1200px wide and down */
-  @media screen and (max-width: 1200px) {
-    #logo {
-    position: absolute; top: 0;
-     text-align: center;
-     margin-right: 20%;
-     margin-left: 20%;
+    /* for small screen sizes from 800px wide and down */
+    @media screen and (max-width: 800px) {
+        #logo {
+            position: absolute; top: 0;
+            text-align: center;
+            margin-right: 35%;
+            margin-left: 35%;
+            margin-bottom: 5%;
+            font-size: 330%;
+            width: 50%;
+        }
+    
+        #menu {
+            text-align: center;
+            width: 180%;
+            font-size: 100%;
+            padding-top: 70%;
+            padding-bottom: 20%;
+            padding-right: 50%;
+            padding-left: 0;   
+        }
+        #skyline-image {
+            width: 200%;
+        }
+
+    /* for medium screen sizes from 950px wide and down */
+    @media screen (min-width: 801px) and (max-width: 950px){
+        #logo {
+            position: absolute; top: 0;
+            text-align: left;
+            background-color: red;
+        }
+    
+        #menu {
+            margin-left: -15%;
+            margin-right: 50%;
+            margin-top: 100%;
+            margin-bottom: 5%;
+            width: 130%;
+            text-align: center; 
+        }
+
+    /* for medium screen sizes from 1200px wide and down */
+     @media screen and (max-width: 1200px) {
+        #logo {
+            position: absolute; top: 0;
+            text-align: center;
+            margin-right: 20%;
+            margin-left: 20%;
     }
     
-     #menu {
-    margin-left: -15%;
-    margin-right: 50%;
-    margin-top: 60%;
-    margin-bottom: 5%;
-    width: 130%;
-    text-align: center;
-        
+        #menu {
+        margin-left: -15%;
+        margin-right: 50%;
+        margin-top: 60%;
+        margin-bottom: 5%;
+        width: 130%;
+        text-align: center; 
      }
-    /*For medium screen sizes from 950px wide and down*/
-    @media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 25px;
-        line-height: 25px;
-    }
-
-  
 
 
-
-
-
+    
 
