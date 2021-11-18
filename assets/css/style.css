@@ -185,6 +185,36 @@ h1, h2 {
     transform: scaleX(-1);
   }
 
+  
+/* Media queries */
+
+  /* for medium screen sizes from 1200px wide and down */
+  @media screen and (max-width: 1200px) {
+    #logo {
+    position: absolute; top: 0;
+     text-align: center;
+     margin-right: 20%;
+     margin-left: 20%;
+    }
+    
+     #menu {
+    margin-left: -15%;
+    margin-right: 50%;
+    margin-top: 60%;
+    margin-bottom: 5%;
+    width: 130%;
+    text-align: center;
+        
+     }
+    /*For medium screen sizes from 950px wide and down*/
+    @media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
 
   
 
