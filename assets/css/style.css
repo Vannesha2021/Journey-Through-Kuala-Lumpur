@@ -213,25 +213,31 @@ h1, h2 {
         }
     }
 
-    /* for medium screen sizes from 950px wide and down */
-    @media screen and (min-width: 801px) and (max-width: 950px){
+     /* for small screen sizes from 950px wide and down */
+     @media screen and (min-width:950px) and (max-width:1999px) {
         #logo {
             position: absolute; top: 0;
-            text-align: left;
+            text-align: center;
+            margin-right: 15%;
+            margin-left: 15%;
+            margin-bottom: 0%;
+            font-size: 300%;
+            width: 40%;
         }
-    
+        
         #menu {
-            margin-left: -15%;
-            margin-right: 50%;
-            margin-top: 100%;
-            margin-bottom: 5%;
-            width: 130%;
-            text-align: center; 
+            font-size: 100%;
+            padding-top: 10%;
+            padding-bottom: 5%;
+            padding-left: 10%;
         }
+
         #skyline-image {
-            
+            width: 110%;
+            padding-bottom: 0%;
+        }
     }
-}
+
 
     /* for medium screen sizes from 1200px wide and down */
      @media screen and (max-width: 1200px) {
