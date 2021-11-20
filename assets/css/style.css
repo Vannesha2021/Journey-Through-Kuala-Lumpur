@@ -64,7 +64,7 @@ h1, h2 {
 
 #skyline-image {
     height: 400px;
-    max-width: 100%;
+    max-width: 120%;
     padding-top: 30%;
     background: url(images/skyline.img.jpg) no-repeat center center;
 }
@@ -243,9 +243,13 @@ h1, h2 {
         margin-left: -15%;
         margin-right: 50%;
         margin-top: 60%;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
         width: 130%;
         text-align: center; 
+     }
+
+     #skyline-image {
+        background-color:blue;
      }
 
 
