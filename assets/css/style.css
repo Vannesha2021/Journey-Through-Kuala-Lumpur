@@ -218,7 +218,7 @@ h1, h2 {
     }
 
     /* for medium screen sizes from 950px wide and down */
-    @media screen (min-width: 801px) and (max-width: 950px){
+    @media screen and (min-width: 801px) and (max-width: 950px){
         #logo {
             position: absolute; top: 0;
             text-align: left;
